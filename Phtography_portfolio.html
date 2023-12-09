@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="Logo.jpg" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Siddhant.</h1>
+    <p>Photographer and Web Designer.</p>
+    <img src="Coverpic.jpg" alt="me" class="w3-image" width="2000" height="2500">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p> <h2 Siddhant - Capturing Moments, Crafting Digital Worlds>
+      <div>
+
+      </div>
+
+      Greetings! I am Siddhant Redekar, a passionate individual embarking on a journey at the intersection of creativity and technology. As a first-year student pursuing Computer Science at DKTE Engineering College, I am not just navigating the complexities of code but also exploring the captivating world of photography.
+      <br>
+      
+      <h3 Academic Pursuits:></h3><br>
+      Currently immersed in the vibrant academic environment of DKTE Engineering College, I am diligently honing my skills in Computer Science. The world of algorithms and programming languages has become a playground for my curiosity, providing a solid foundation for my future endeavors.
+      <br>
+      <h3 Passion:></h3><br>
+      Beyond the realm of codes and algorithms, my heart finds solace in the art of photography. Each click of the shutter is a moment frozen in time, a testament to the beauty that surrounds us. Whether it's the play of light at dawn or the candid expressions of people, my lens captures stories that words cannot tell. Photography, for me, is a journey of self-expression and discovery.
+      <br>
+      <h3 Web Development Wizardry:></h3>
+      In tandem with my love for photography, I wield the magic of web development. As a creator in the digital realm, I transform ideas into visually stunning and functional websites. Coding becomes my paintbrush, and the internet canvas is where my imagination takes flight. From elegant designs to seamless user experiences, I strive to breathe life into the virtual spaces I craft.
+
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">85%</span><br>
+        in SSC
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">67%</span><br>
+        in HSC
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">82%</span><br>
+        in MHT-CET
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">5+ </span><br>
+        Yrs Photography & Web development experience
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+    
+   
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">My Reputation/Reviews</h3>  
+    <img src="Piyush.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Piyush Patil.</span> Ai Engineer</p>
+    <p>Your have choosed a right webdeveloper for you.</p><br>
+    
+    <img src="Prajwal.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Prajwal Patil.</span>Machine Learning Engineer</p>
+    <p>He is the Best Editor.</p><br>
+
+    <img src="Aditya.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Aditya Patil.</span>Robotics Engineer</p>
+    <p>He Clicks the Best Photos.</p><br>
+  <!-- End About Section -->
+  </div>
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="gallery">
+      <a target="_blank" href="PGpic1.jpg">
+        <img src="PGpic1.jpg" alt="Fort" width="600" height="400">
+      </a>
+      <div class="desc"> Beauty of Sindhudurg Fort</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="PGpic2.jpg">
+        <img src="PGpic2.jpg" alt="Well" width="600" height="400">
+      </a>
+      <div class="desc">A Well in a Farm reflecting a beautifull view of sunset</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="PGpic4.jpg">
+        <img src="PGpic4.jpg" alt="A Dog" width="600" height="400">
+      </a>
+      <div class="desc">A B&W image of a Dog</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="PGpic3.jpg">
+        <img src="PGpic3.jpg" alt="Sunset" width="600" height="400">
+      </a>
+      <div class="desc">Golden Hour in Village</div>
+    </div>
+    <div class="gallery">
+      <a target="_blank" href="PGpic5.jpg">
+        <img src="PGpic5.jpg" alt="Well" width="600" height="400">
+      </a>
+      <div class="desc">A Cat Trying to drink water</div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="PGpic6.jpg">
+        <img src="PGpic6.jpg" alt="A Dog" width="600" height="400">
+      </a>
+      <div class="desc">After Rain vibes </div>
+    </div>
+    
+    <div class="gallery">
+      <a target="_blank" href="PGpic7.jpg">
+        <img src="PGpic7.jpg" alt="Sunset" width="600" height="400">
+      </a>
+      <div class="desc">The Historic Pavankhind doomed in hazzy climate</div>
+    </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+<br>
+
+<div>
+
+    <p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://instagram.com/siddhant_redekar_?igshid=MzMyNGUyNmU2YQ==" target="_blank"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://www.snapchat.com/" target="_blank"> <i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    <a href="https://in.pinterest.com/" target="_blank"><i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://in.linkedin.com/" target="_blank"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
